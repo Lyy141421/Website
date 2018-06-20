@@ -1,0 +1,42 @@
+div.nav {background-color: #D1112F;
+  float: right;
+}
+
+div.nav li {float: right;
+}
+
+div.nav li a {color: white;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+}
+
+div.nav li a:hover {background-color: #EEEEEE;
+  color: black;
+}
+
+div.nav ul {list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nar {width: 30%;
+
+}
+
+button.btns {border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  border: none;
+  background-color: gray;
+}
+
+img.slides {width: 90%;
+  position: relative;
+  left: 5%;
+}

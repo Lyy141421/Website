@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="cssjs\style.css"/>
 	<style type="text/css">
 
 	</style>
@@ -11,14 +11,89 @@
 <body>
 	<h1>research lab</h1>
 	<div class="nav">
-		<tr>
-			<th><a href="index.html">Home</a></th>
-			<th><a href="people.html">People</a></th></th>
-			<th><a href="research.html">Research</a></th>
-			<th><a href="publication.html">Publications</a></th>
-			<th><a href="partner.html">Partners</a></th>
-		</tr>
+		<ul>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="partner.html">Partners</a></li>
+			<li><a href="publication.html">Publications</a></li>
+			<li><a href="people.html">People</a></th></li>
+			<li><a href="research.html">Research</a></li>
+			<li><a href="index.html">Home</a></li>
+		</ul>
 	</div>
+
+	<div id="slideshow">
+		<img class="slides" src="images\placeholder.jpg">
+		<img class="slides" src="images\img1.jpg">
+		<img class="slides" src="images\img2.jpg">
+		<img class="slides" src="images\img3.jpg">
+
+		<div style="text-align: center">
+			<button class="btns" onclick="toSlide(0)"> </button>
+			<button class="btns" onclick="toSlide(1)"> </button>
+			<button class="btns" onclick="toSlide(2)"> </button>
+			<button class="btns" onclick="toSlide(3)"> </button>
+		</div>
+	</div>
+
+		<script src="cssjs\jscode.js"></script>
+
+	<hr />
+		<table>
+			<tr>
+				<th colspan="2">Overview</th>
+				<th class="nar">Recent</th>
+			</tr>
+			<tr>
+				<th colspan="2">This is the overview. This is the overview.
+					This is the overview. This is the overview. This is the overview.
+					This is the overview. This is the overview. This is the overview.
+					This is the overview. This is the overview. This is the overview.
+					This is the overview. This is the overview. This is the overview.
+					This is the overview. This is the overview. This is the overview.
+					This is the overview. This is the overview. This is the overview.
+					This is the overview. This is the overview. This is the overview.
+					This is the overview. This is the overview. This is the overview.
+					This is the overview. This is the overview. This is the overview.
+					This is the overview. This is the overview. This is the overview.</th>
+				<th rowspan="3" class="nar">This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br />
+						This is recent events. <br /></th>
+			</tr>
+			<tr>
+				<th style="width: 30%">Research</th>
+				<th style="width: 30%">Partners</th>
+			</tr>
+			<tr>
+				<th style="width: 35%">This is current research. This is current research.
+						This is current research. This is current research.
+						This is current research. This is current research.
+						This is current research. This is current research.
+						This is current research. This is current research.
+						This is current research. This is current research. </th>
+				<th style="width: 35%">This is our partners. This is our partners.
+						This is our partners. This is our partners.
+						This is our partners. This is our partners.
+						This is our partners. This is our partners.
+						This is our partners. This is our partners.
+						This is our partners. This is our partners. </th>
+			</tr>
+		</table>
 
 </body>
 
