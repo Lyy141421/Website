@@ -1,8 +1,11 @@
-div.nav {background-color: #D1112F;
-  float: right;
+div.nav {float: right;
+  margin-bottom: 20px;
+  display:block;
+  width: 100%;
 }
 
 div.nav li {float: right;
+  background-color: #D1112F;
 }
 
 div.nav li a {color: white;
@@ -23,7 +26,7 @@ div.nav ul {list-style-type: none;
   padding: 0;
 }
 
-.nar {width: 30%;
+.nar {width: 40%;
 
 }
 
@@ -36,7 +39,21 @@ button.btns {border-radius: 100%;
   background-color: gray;
 }
 
-img.slides {width: 90%;
+img.slides {width: 60%;
   position: relative;
-  left: 5%;
+  left: 20%;
+  margin-top: 20px;
+}
+
+table {margin-left: 15%;
+  margin-right: 15%;
+}
+
+.person {margin-left: 20%;
+  margin-right: 20%;
+}
+
+.profile ul, img {display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
 }
