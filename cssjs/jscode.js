@@ -1,9 +1,14 @@
-var slideIndex = 0;
+var slideIndex = -1;
+var slides = document.getElementsByClassName('slides');
+var dots = document.getElementsByClassName('btns');
 autoSlide(slideIndex)
 
 function toSlide(n) {
-  var slides = document.getElementsByClassName('slides');
-  var dots = document.getElementsByClassName('btns');
+  if (n >= slides.length) {
+    n = 0;
+  } else if (n < 0) {
+    n = slides.length - 1;
+  }
   for (var i = 0; i < slides.length; i++) {
     if (i != n) {
       slides[i].style.display = 'none';
@@ -15,11 +20,8 @@ function toSlide(n) {
 }
 
 function autoSlide() {
-  var slides = document.getElementsByClassName('slides');
-  toSlide(slideIndex);
   slideIndex++;
-  if (slideIndex >= slides.length) {
-    slideIndex = 0;
-  }
-  setTimeout(autoSlide, 3000);
+  toSlide(slideIndex);
+
+  setTimeout(autoSlide, 5000);
 }
