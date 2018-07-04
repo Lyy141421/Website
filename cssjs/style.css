@@ -1,7 +1,7 @@
 div.nav {float: right;
   margin-bottom: 20px;
-  display:block;
-  width: 100%;
+  width: 1366px;
+  overflow: hidden;
 }
 
 div.nav li {float: right;
@@ -27,25 +27,32 @@ div.nav ul {list-style-type: none;
 }
 
 .nar {width: 40%;
-
 }
 
-button.btns {border-radius: 100%;
+.btns {border-radius: 100%;
   display: inline-block;
   text-align: center;
-  padding: 5px;
+  padding: 7px;
+  margin: 5px;
   text-decoration: none;
   border: none;
   background-color: gray;
+  transition: 0.4s ease;
+}
+
+.active, .btns:hover {background-color: #3d3d3d;
+  cursor: pointer;
 }
 
 img.slides {width: 60%;
   position: relative;
-  left: 20%;
+  left: 19%;
   margin-top: 20px;
+  transition: 0.6s ease;
 }
 
-table {margin-left: 15%;
+table {align-self: center;
+  margin-left: 15%;
   margin-right: 15%;
 }
 
@@ -60,8 +67,9 @@ table {margin-left: 15%;
 
 .next {cursor: pointer;
   position: absolute;
-  top: 60%;
-  right: 20%;
+  top: 50%;
+  right: 258px;
+  padding: 20px;
   color: white;
   font-weight: bold;
   font-size: 30px;
@@ -71,11 +79,24 @@ table {margin-left: 15%;
 
 .prev {cursor: pointer;
   position: absolute;
-  top: 60%;
-  left: 23%;
+  top: 50%;
+  left: 272px;
+  padding: 21px;
   color: white;
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {background-color: #707070;
+}
+
+body {width: 1325px;
+  text-align: center;
+  align-items: center;
+}
+
+#slideshow {position: relative;
+  width: 1325px;
 }

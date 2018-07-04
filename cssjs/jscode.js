@@ -12,8 +12,10 @@ function toSlide(n) {
   for (var i = 0; i < slides.length; i++) {
     if (i != n) {
       slides[i].style.display = 'none';
+      dots[i].className = dots[i].className.replace(" active", "");
     } else {
       slides[i].style.display = 'block';
+      dots[i].className += ' active';
     }
   }
   slideIndex = n
