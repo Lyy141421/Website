@@ -29,7 +29,7 @@ function autoSlide() {
 }
 
 function myMap() {
-  var mackenzie = {lat: 45.38488, lng: -75.7002047};
+  var mackenzie = {lat: 45.384869, lng: -75.698006};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 12, center: mackenzie
   });
