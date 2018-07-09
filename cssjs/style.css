@@ -1,7 +1,7 @@
 div.nav {float: right;
   margin-bottom: 20px;
-  width: 1366px;
-  overflow: hidden;
+  width: 1325px;
+  position: relative;
 }
 
 div.nav li {float: right;
@@ -15,6 +15,7 @@ div.nav li a {color: white;
   text-decoration: none;
   font-size: 20px;
   position: relative;
+  z-index: 1;
 }
 
 div.nav li a:hover {background-color: #EEEEEE;
@@ -56,8 +57,9 @@ table {align-self: center;
   margin-right: 15%;
 }
 
-.person {margin-left: 20%;
-  margin-right: 20%;
+.person {padding-left: 20%;
+  padding-right: 20%;
+  position: relative;
 }
 
 .profile ul, img {display: inline-block;
@@ -93,10 +95,27 @@ table {align-self: center;
 }
 
 body {width: 1325px;
-  text-align: center;
-  align-items: center;
 }
 
 #slideshow {position: relative;
-  width: 1325px;
+}
+
+.content {font-weight: lighter;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  letter-spacing: -0.5px;
+  padding: 20px;
+}
+
+.card, #map {position: relative;
+  float: left;
+}
+
+.card li {list-style-type: none;
+}
+
+div.contact {position: relative;
+  left: 50px;
+  top: 30px;
+  width: 900px;
 }
