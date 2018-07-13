@@ -2,10 +2,11 @@
   width: 1300px;
 }
 
-div.nav {float: right;
+.nav {float: right;
   margin-bottom: 20px;
   width: 1325px;
   position: relative;
+  right: 100px;
 }
 
 div.nav li {float: right;
@@ -15,9 +16,9 @@ div.nav li {float: right;
 div.nav li a {color: white;
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   position: relative;
   z-index: 1;
 }
@@ -34,6 +35,11 @@ div.nav ul {list-style-type: none;
 .logo {position: absolute;
   top: 5px;
   left: 5px;
+}
+
+hr.long {height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
 .nar {width: 40%;
@@ -78,7 +84,7 @@ table {align-self: center;
 
 .next {cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 258px;
   padding: 20px;
   color: white;
@@ -90,7 +96,7 @@ table {align-self: center;
 
 .prev {cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 272px;
   padding: 21px;
   color: white;
@@ -116,15 +122,19 @@ body {width: 1325px;
   padding: 20px;
 }
 
-.card, #map {position: relative;
+.plist, #map {position: relative;
   float: left;
+  left: 100px;
 }
 
-.card li {list-style-type: none;
+.plist li {list-style-type: none;
 }
 
 div.contact {position: relative;
   left: 50px;
   top: 30px;
   width: 900px;
+}
+
+.plist {position: relative;
 }
