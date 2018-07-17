@@ -11,6 +11,7 @@
 
 div.nav li {float: right;
   background-color: #D1112F;
+  width: 110px;
 }
 
 div.nav li a {color: white;
@@ -85,7 +86,7 @@ table {align-self: center;
 .next {cursor: pointer;
   position: absolute;
   top: 45%;
-  right: 258px;
+  right: 263px;
   padding: 20px;
   color: white;
   font-weight: bold;
@@ -97,7 +98,7 @@ table {align-self: center;
 .prev {cursor: pointer;
   position: absolute;
   top: 45%;
-  left: 272px;
+  left: 276px;
   padding: 21px;
   color: white;
   font-weight: bold;
@@ -109,7 +110,9 @@ table {align-self: center;
 .prev:hover, .next:hover {background-color: #707070;
 }
 
-body {width: 1325px;
+body {margin: 0px;
+  width: var(--device-res);
+  position: absolute;
 }
 
 #slideshow {position: relative;
