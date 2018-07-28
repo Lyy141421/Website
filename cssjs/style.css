@@ -34,13 +34,13 @@ div.nav ul {list-style-type: none;
 }
 
 .logo {position: absolute;
-  top: 5px;
+  top: 7px;
   left: 5px;
 }
 
 hr.long {height: 12px;
   border: 0;
-  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 10px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
 .nar {width: 40%;
@@ -140,4 +140,8 @@ div.contact {position: relative;
 }
 
 .plist {position: relative;
+}
+
+.opp {padding: 50px 100px 20px 150px;
+
 }

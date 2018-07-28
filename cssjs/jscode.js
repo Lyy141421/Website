@@ -1,7 +1,7 @@
 var slideIndex = -1;
 var slides = document.getElementsByClassName('slides');
 var dots = document.getElementsByClassName('btns');
-var container = document.getElementsByTagName('body');
+var container = document.querySelector('body');
 autoSlide(slideIndex);
 
 container.style.setProperty('--device-res', screen.availWidth * window.devicePixelRatio + 'px');
