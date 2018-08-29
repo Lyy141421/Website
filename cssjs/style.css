@@ -81,12 +81,13 @@ table {align-self: center;
 .profile ul, img {display: inline-block;
   margin-left: 20px;
   margin-right: 20px;
+  list-style-type: none;
 }
 
 .next {cursor: pointer;
   position: absolute;
   top: 45%;
-  right: 263px;
+  right: var(--right-space);
   padding: 20px;
   color: white;
   font-weight: bold;
@@ -98,7 +99,7 @@ table {align-self: center;
 .prev {cursor: pointer;
   position: absolute;
   top: 45%;
-  left: 276px;
+  left: var(--left-space);
   padding: 21px;
   color: white;
   font-weight: bold;

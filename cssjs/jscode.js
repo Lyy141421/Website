@@ -2,9 +2,13 @@ var slideIndex = -1;
 var slides = document.getElementsByClassName('slides');
 var dots = document.getElementsByClassName('btns');
 var container = document.querySelector('body');
+var left = document.querySelector('.prev');
+var right = document.querySelector('.next');
 autoSlide(slideIndex);
 
-container.style.setProperty('--device-res', screen.availWidth * window.devicePixelRatio + 'px');
+container.style.setProperty('--device-res', screen.availWidth + 'px');
+left.style.setProperty('--left-space', screen.availWidth * 0.205 + 'px');
+right.style.setProperty('--right-space', screen.availWidth * 0.1955 + 'px');
 
 function toSlide(n) {
   if (n >= slides.length) {
